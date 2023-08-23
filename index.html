@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funiro</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container _container">
+        <div class="header__logo">
+            <a href="./index.html">
+                <img src="./img/svg/logo.svg" alt="Logo">
+            </a>
+        </div>
+        <div class="header__inner">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item sublist-item">
+                        <span>
+                            <a href="#" class="nav__link">Products</a>
+                            <svg>
+                                <use xlink:href="./img/svg/sprite.svg#icon-arrow-bottom" />
+                            </svg>
+                        </span>
+                        <div class="sublist">
+                            <ul>
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item sublist-item">
+                        <span>
+                            <a href="#" class="nav__link">Rooms</a>
+                            <svg>
+                                <use xlink:href="./img/svg/sprite.svg#icon-arrow-bottom" />
+                            </svg>
+                        </span>
+                        <div class="sublist">
+                            <ul>
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Inspirations</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__box-search">
+                <form action="#" class="header-form">
+                    <button class="header-form__submit">
+                        <svg>
+                            <use xlink:href="./img/svg/sprite.svg#icon-search" />
+                        </svg>
+                    </button>
+                    <div class="header-form__item">
+                        <input type="text" placeholder="Search for minimalist chair">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="header__actions header-actions">
+            <div class="header-actions__favorite">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                    </svg>
+                </a>
+            </div>
+            <div class="header-actions__cart">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="./img/svg/sprite.svg#icon-cart" />
+                    </svg>
+                </a>
+            </div>
+            <div class="header-actions__office">
+                <a href="#">
+                    <picture><source srcset="./img/user.webp" type="image/webp"><img src="./img/user.png" alt="User"></picture>
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+  <main class="main">
+    <section class="home">
+      <div class="home__container _container">
+        <div class="home__box-text">
+          <h1 class="home__title">High-Quality
+            Furniture Just
+            For You</h1>
+          <div class="home__submenu">
+            <p>Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+          </div>
+          <button class="home__btn _btn-oreng">Shop Now</button>
+        </div>
+        <div class="home__box-slider home-slider">
+          <div class="home-slider__swiper swiper">
+            <div class="home-slider__swiper-wrapper swiper-wrapper">
+              <div class="home-slider__swiper-slide swiper-slide">
+                <picture><source srcset="./img/banner.webp" type="image/webp"><img src="./img/banner.png" alt="Product"></picture>
+                <div class="home-slider__label home-slider-label">
+                  <h4 class="home-slider-label__title">Bohauss</h4>
+                  <p>Luxury big sofa 2-seat</p>
+                  <a href="#">
+                    <span>Rp 17.000.000</span>
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-arrow-right-link" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="home-slider__swiper-slide swiper-slide">
+                <picture><source srcset="./img/banner.webp" type="image/webp"><img src="./img/banner.png" alt="Product"></picture>
+                <div class="home-slider__label home-slider-label">
+                  <h4 class="home-slider-label__title">Bohauss</h4>
+                  <p>Luxury big sofa 2-seat</p>
+                  <a href="#">
+                    <span>Rp 17.000.000</span>
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-arrow-right-link" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="home-slider__swiper-slide swiper-slide">
+                <picture><source srcset="./img/banner.webp" type="image/webp"><img src="./img/banner.png" alt="Product"></picture>
+                <div class="home-slider__label home-slider-label">
+                  <h4 class="home-slider-label__title">Bohauss</h4>
+                  <p>Luxury big sofa 2-seat</p>
+                  <a href="#">
+                    <span>Rp 17.000.000</span>
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-arrow-right-link" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="home-slider__swiper-slide swiper-slide">
+                <picture><source srcset="./img/banner.webp" type="image/webp"><img src="./img/banner.png" alt="Product"></picture>
+                <div class="home-slider__label home-slider-label">
+                  <h4 class="home-slider-label__title">Bohauss</h4>
+                  <p>Luxury big sofa 2-seat</p>
+                  <a href="#">
+                    <span>Rp 17.000.000</span>
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-arrow-right-link" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-slider__swiper-pagination swiper-pagination"></div>
+          <div class="slide-box-btn">
+            <div class="home-slider__swiper-button-prev swiper-button-prev"></div>
+            <div class="home-slider__swiper-button-next swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="our-pluses">
+      <div class="our-pluses__container _container">
+        <div class="our-pluses__wrapper">
+          <div class="our-pluses__item">
+            <div class="our-pluses__icon">
+              <img src="./img/svg/trophy.svg" alt="Icon">
+            </div>
+            <div class="our-pluses__inner">
+              <div class="our-pluses__name">High Quality</div>
+              <div class="our-pluses__text">crafted from top materials</div>
+            </div>
+          </div>
+          <div class="our-pluses__item">
+            <div class="our-pluses__icon">
+              <img src="./img/svg/guarantee.svg" alt="Icon">
+            </div>
+            <div class="our-pluses__inner">
+              <div class="our-pluses__name">Warrany Protection</div>
+              <div class="our-pluses__text">Over 2 years</div>
+            </div>
+          </div>
+          <div class="our-pluses__item">
+            <div class="our-pluses__icon">
+              <img src="./img/svg/shipping.svg" alt="Icon">
+            </div>
+            <div class="our-pluses__inner">
+              <div class="our-pluses__name">Free Shipping</div>
+              <div class="our-pluses__text">Order over 150 $</div>
+            </div>
+          </div>
+          <div class="our-pluses__item">
+            <div class="our-pluses__icon">
+              <img src="./img/svg/customer-support.svg" alt="Icon">
+            </div>
+            <div class="our-pluses__inner">
+              <div class="our-pluses__name">24 / 7 Support</div>
+              <div class="our-pluses__text">Dedicated support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="our-products">
+      <div class="our-products__container _container">
+        <h2 class="our-products__title _title-2">Our Products</h2>
+        <div class="our-products__wrapper">
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__new">
+                  <span>New</span>
+                </div>
+                <div class="labels__discount">
+                  <span>-30%</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-7.webp" type="image/webp"><img src="./img/product-7.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Syltherine</a>
+              <div class="our-products-item__text">Stylish cafe chair</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 2.500.000</div>
+                <div class="prices__old">Rp 3.500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__new">
+                  <span>New</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-2.webp" type="image/webp"><img src="./img/product-2.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Lolito</a>
+              <div class="our-products-item__text">Luxury big sofa</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 2.500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__discount">
+                  <span>-30%</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-7.webp" type="image/webp"><img src="./img/product-7.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Syltherine</a>
+              <div class="our-products-item__text">Stylish cafe chair</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 2.500.000</div>
+                <div class="prices__old">Rp 3.500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <a href="#">
+                <picture><source srcset="./img/product-3.webp" type="image/webp"><img src="./img/product-3.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Respira</a>
+              <div class="our-products-item__text">Minimalist fan</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 2.500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__new">
+                  <span>New</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-4.webp" type="image/webp"><img src="./img/product-4.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Grifo</a>
+              <div class="our-products-item__text">Night lamp</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 1.500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <a href="#">
+                <picture><source srcset="./img/product-1.webp" type="image/webp"><img src="./img/product-1.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Muggo</a>
+              <div class="our-products-item__text">Small mug</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 150.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__discount">
+                  <span>-30%</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-5.webp" type="image/webp"><img src="./img/product-5.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Pingky</a>
+              <div class="our-products-item__text">Cute bed set</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 7.000.000</div>
+                <div class="prices__old">Rp 14.000.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-products__item our-products-item">
+            <div class="our-products-item__image">
+              <div class="our-products__labels labels">
+                <div class="labels__new">
+                  <span>New</span>
+                </div>
+              </div>
+              <a href="#">
+                <picture><source srcset="./img/product-6.webp" type="image/webp"><img src="./img/product-6.png" alt="Producr"></picture>
+              </a>
+            </div>
+            <div class="our-products-item__description">
+              <a href="#" class="our-products-item__name">Potty</a>
+              <div class="our-products-item__text">Minimalist flower pot</div>
+              <div class="our-products-item__prices prices">
+                <div class="prices__price">Rp 500.000</div>
+              </div>
+              <div class="our-products-item__actions">
+                <div class="our-products-item__inner">
+                  <button class="our-products-item__btn _btn-white">Add to cart</button>
+                  <div class="our-products-item__icons products-item-icons">
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="./img/svg/sprite.svg#icon-gridicons_share" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="products-item-icons__icon">
+                      <a href="#">
+                        <svg class="heart">
+                          <use xlink:href="./img/svg/sprite.svg#icon-heart" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-products__box-btns">
+          <button class="our-products__btn _btn-white">Show More</button>
+        </div>
+      </div>
+    </section>
+    <section class="bonus">
+      <div class="bonus__container _container">
+        <div class="bonus__box-text">
+          <div class="bonus__text-wrap">
+            <h2 class="bonus__title _title-2">50+ Beautiful rooms
+              inspiration</h2>
+            <div class="bonus__subtitle">
+              <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            </div>
+            <button class="bonus__btn _btn-oreng">Explore More</button>
+          </div>
+        </div>
+        <div class="bonus__box-slider bonus-slider">
+          <!-- Slider main container -->
+          <div class="bonus__swiper swiper">
+            <!-- Additional required wrapper -->
+            <div class="bonus__swiper-wrapper swiper-wrapper">
+              <!-- Slides -->
+              <div class="bonus__swiper-slide swiper-slide">
+                <picture><source srcset="./img/bonus-1.webp" type="image/webp"><img src="./img/bonus-1.png" alt="Product"></picture>
+                <a href="#" class="bonus-slider__inner">
+                  <div class="bonus-slider__index">
+                    <span>01</span>
+                    Bed Room
+                    <h4 class="bonus-slider__name">Inner Peace</h4>
+                  </div>
+                  <div class="bonus-slider__link">
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-bonus-arrow-right"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="bonus__swiper-slide swiper-slide">
+                <picture><source srcset="./img/bonus-2.webp" type="image/webp"><img src="./img/bonus-2.png" alt="Product"></picture>
+                <div class="bonus-slider__inner">
+                  <a href="#" class="bonus-slider__index">
+                    <span>02</span>
+                    Bed Room
+                    <h4 class="bonus-slider__name">Inner Peace</h4>
+                  </a>
+                  <div class="bonus-slider__link">
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-bonus-arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="bonus__swiper-slide swiper-slide">
+                <picture><source srcset="./img/bonus-1.webp" type="image/webp"><img src="./img/bonus-1.png" alt="Product"></picture>
+                <a href="#" class="bonus-slider__inner">
+                  <div class="bonus-slider__index">
+                    <span>03</span>
+                    Bed Room
+                    <h4 class="bonus-slider__name">Inner Peace</h4>
+                  </div>
+                  <div class="bonus-slider__link">
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-bonus-arrow-right"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="bonus__swiper-slide swiper-slide">
+                <picture><source srcset="./img/bonus-2.webp" type="image/webp"><img src="./img/bonus-2.png" alt="Product"></picture>
+                <div class="bonus-slider__inner">
+                  <a href="#" class="bonus-slider__index">
+                    <span>04</span>
+                    Bed Room
+                    <h4 class="bonus-slider__name">Inner Peace</h4>
+                  </a>
+                  <div class="bonus-slider__link">
+                    <svg>
+                      <use xlink:href="./img/svg/sprite.svg#icon-bonus-arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bonus__swiper-pagination swiper-pagination"></div>
+
+            <div class="bonus__swiper-button-prev swiper-button-prev"></div>
+            <div class="bonus__swiper-button-next swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tips-tricks">
+      <div class="tips-tricks__container _container">
+        <h2 class="tips-tricks__title _title-2">Tips & Tricks</h2>
+        <div class="tips-tricks__wrapper">
+          <!-- Slider main container -->
+          <div class="tips-tricks__swiper swiper">
+            <!-- Additional required wrapper -->
+            <div class="tips-tricks__swiper-wrapper swiper-wrapper">
+              <!-- Slides -->
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <div class="tips-tricks__box-img">
+                  <a href="#"><picture><source srcset="./img/tips-tricks-1.webp" type="image/webp"><img src="./img/tips-tricks-1.png" alt="Image"></picture></a>
+                </div>
+                <a href="#" class="tips-tricks__label">How to create a living
+                  room to love</a>
+                <div class="tips-tricks__date">20 jan 2020</div>
+              </div>
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <a href="#">
+                  <div class="tips-tricks__box-img">
+                    <picture><source srcset="./img/tips-tricks-2.webp" type="image/webp"><img src="./img/tips-tricks-2.png" alt="Image"></picture>
+                  </div>
+                </a>
+                <a href="#" class="tips-tricks__label">Solution for clean look working
+                  space</a>
+                <div class="tips-tricks__date">10 jan 2020</div>
+              </div>
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <div class="tips-tricks__box-img">
+                  <a href="#">
+                    <picture><source srcset="./img/tips-tricks-3.webp" type="image/webp"><img src="./img/tips-tricks-3.png" alt="Image"></picture>
+                  </a>
+                </div>
+                <a href="#" class="tips-tricks__label">Make your cooking activity
+                  more fun with good setup</a>
+                <div class="tips-tricks__date">20 jan 2020</div>
+              </div>
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <div class="tips-tricks__box-img">
+                  <a href="#"><picture><source srcset="./img/tips-tricks-1.webp" type="image/webp"><img src="./img/tips-tricks-1.png" alt="Image"></picture></a>
+                </div>
+                <a href="#" class="tips-tricks__label">How to create a living
+                  room to love</a>
+                <div class="tips-tricks__date">20 jan 2020</div>
+              </div>
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <a href="#">
+                  <div class="tips-tricks__box-img">
+                    <picture><source srcset="./img/tips-tricks-2.webp" type="image/webp"><img src="./img/tips-tricks-2.png" alt="Image"></picture>
+                  </div>
+                </a>
+                <a href="#" class="tips-tricks__label">Solution for clean look working
+                  space</a>
+                <div class="tips-tricks__date">10 jan 2020</div>
+              </div>
+              <div class="tips-tricks__swiper-slide swiper-slide">
+                <div class="tips-tricks__box-img">
+                  <a href="#">
+                    <picture><source srcset="./img/tips-tricks-3.webp" type="image/webp"><img src="./img/tips-tricks-3.png" alt="Image"></picture>
+                  </a>
+                </div>
+                <a href="#" class="tips-tricks__label">Make your cooking activity
+                  more fun with good setup</a>
+                <div class="tips-tricks__date">20 jan 2020</div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="tips-tricks__swiper-pagination swiper-pagination"></div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="tips-tricks__swiper-button-prev swiper-button-prev"></div>
+          <div class="tips-tricks__swiper-button-next swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery__container">
+        <div class="gallery__box-title">
+          <div class="gallery__subtitle">Share your setup with</div>
+          <h2 class="gallery__title _title-2">#FuniroFurniture</h2>
+        </div>
+        <div class="gallery__content" id="lightgallery">
+          <div class="gallery__wrapper gallery-wrapper">
+            <div class="gallery-wrapper__row">
+              <div class="gallery-wrapper__inner _top-left">
+                <a href="./img/gallery-1.png" data-fancybox="gallery" data-lg-size="1024-800" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-1.webp" type="image/webp"><img src="./img/gallery-1.png" alt="Gallery"></picture>
+                </a>
+                <a href="./img/gallery-2.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-2.webp" type="image/webp"><img src="./img/gallery-2.png" alt="Gallery"></picture>
+                </a>
+              </div>
+              <div class="gallery-wrapper__inner _bottom-left">
+                <a href="./img/gallery-6.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-6.webp" type="image/webp"><img src="./img/gallery-6.png" alt="Gallery"></picture>
+                </a>
+                <a href="./img/gallery-7.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-7.webp" type="image/webp"><img src="./img/gallery-7.png" alt="Gallery"></picture>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="gallery__center">
+            <a href="./img/gallery-3.png" data-fancybox="gallery" class="gallery-wrapper__item">
+              <picture><source srcset="./img/gallery-3.webp" type="image/webp"><img src="./img/gallery-3.png" alt="Gallery"></picture>
+            </a>
+          </div>
+          <div class="gallery__wrapper gallery-wrapper">
+            <div class="gallery-wrapper__row">
+              <div class="gallery-wrapper__inner _top-right">
+                <a href="./img/gallery-4.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-4.webp" type="image/webp"><img src="./img/gallery-4.png" alt="Gallery"></picture>
+                </a>
+                <a href="./img/gallery-5.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-5.webp" type="image/webp"><img src="./img/gallery-5.png" alt="Gallery"></picture>
+                </a>
+              </div>
+              <div class="gallery-wrapper__inner _bottom-right">
+                <a href="./img/gallery-8.png" data-fancybox="gallery" class="gallery-wrapper__item ">
+                  <picture><source srcset="./img/gallery-8.webp" type="image/webp"><img src="./img/gallery-8.png" alt="Gallery"></picture>
+                </a>
+                <a href="./img/gallery-9.png" data-fancybox="gallery" class="gallery-wrapper__item">
+                  <picture><source srcset="./img/gallery-9.webp" type="image/webp"><img src="./img/gallery-9.png" alt="Gallery"></picture>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container _container">
+        <div class="footer__wrapper">
+            <div class="footer__contact footer-contact">
+                <div class="footer-contact__logo logo">
+                    <a href="./index.html">
+                        <img src="./img/svg/logo.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="footer-contact__text">
+                    <p>Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</p>
+                </div>
+                <ul class="footer-contact__list">
+                    <li class="footer-contact__item">
+                        <a href="#" class="footer-contact__link">
+                            <svg>
+                                <use xlink:href="./img/svg/sprite.svg#icon-location" />
+                            </svg>
+                            Sawojajar Malang, Indonesia
+                        </a>
+                    </li>
+                    <li class="footer-contact__item">
+                        <a href="tel:+62894563455" class="footer-contact__link">
+                            <svg>
+                                <use xlink:href="./img/svg/sprite.svg#icon-phone" />
+                            </svg>
+                            +6289 456 3455
+                        </a>
+                    </li>
+                    <li class="footer-contact__item">
+                        <a href="#" class="footer-contact__link">
+                            www.funiro.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper footer-wrapper">
+                <div class="footer-wrapper__row accardeons">
+                    <div class="footer-wrapper__label accardeons__header">Menu</div>
+                    <ul class="footer-wrapper__list accardeons__body">
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Products</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Rooms</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Inspirations</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">About Us</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Terms & Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper__row accardeons">
+                    <div class="footer-wrapper__label accardeons__header">Account</div>
+                    <ul class="footer-wrapper__list accardeons__body">
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">My Account</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Checkout</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">My Cart</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">My catalog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper__row accardeons">
+                    <div class="footer-wrapper__label accardeons__header">Stay Connected</div>
+                    <ul class="footer-wrapper__list accardeons__body">
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Facebook</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Instagram</a></li>
+                        <li class="footer-wrapper__item"><a href="#" class="footer-wrapper__link">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__meassages footer-messages">
+                <div class="footer-messages__label">Stay Updated</div>
+                <form action="#" class="footer-messages__form footer-form">
+                    <div class="footer-form__item">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <button class="footer-form__submit">
+                        <svg>
+                            <use xlink:href="./img/svg/sprite.svg#icon-message"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./js/jquery.fancybox.min.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script> 
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
