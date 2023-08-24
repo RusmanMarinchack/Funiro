@@ -3,6 +3,7 @@
 const swiperHome = new Swiper('.home-slider__swiper', {
     spaceBetween: 32,
     slidesPerView: 1,
+    speed: 1000,
     navigation: {
         nextEl: '.home-slider__swiper-button-next',
         prevEl: '.home-slider__swiper-button-prev',
@@ -19,6 +20,7 @@ const swiperHome = new Swiper('.home-slider__swiper', {
 const swiperBonus = new Swiper('.bonus__swiper', {
     spaceBetween: 24,
     slidesPerView: 1,
+    speed: 1000,
     navigation: {
         nextEl: '.bonus__swiper-button-next',
         prevEl: '.bonus__swiper-button-prev',
@@ -35,6 +37,7 @@ const swiperBonus = new Swiper('.bonus__swiper', {
 const swiperTipsTricks = new Swiper('.tips-tricks__swiper', {
     slidesPerView: 3,
     spaceBetween: 25,
+    speed: 1000,
     navigation: {
         nextEl: '.tips-tricks__swiper-button-next',
         prevEl: '.tips-tricks__swiper-button-prev',
@@ -270,80 +273,3 @@ function activePopap() {
     }
 } 
 activePopap()
-
-
-
-
-// // Робимо таби по сайту.
-// function heandlerTabs() {
-//     let tabs = document.querySelectorAll(".tabs")
-
-//     if(tabs.length > 0) {
-//         tabs.forEach(tab => {
-//             let tabBtns = tab.querySelectorAll('.tabs__item')
-
-//             if(tabBtns.length > 0) {
-//                 tabBtns.forEach(btn => {
-//                     btn.addEventListener('click', function() {
-//                         removeActive()
-//                         this.classList.add('active')
-
-//                         let index = this.dataset.tabIndex
-//                         let body = tab.querySelector(`.tabs__body-${index}`)
-
-//                         if(body) {
-//                             body.classList.add('active')
-//                         }
-//                     })
-//                 })
-//             }
-
-//             function removeActive() {
-//                 let tabHeader = tab.querySelectorAll('.tabs__item')
-//                 let tabBody = tab.querySelectorAll('.tabs__body')
-
-//                 tabHeader.forEach(item => {
-//                     item.classList.remove('active')
-//                 })
-
-//                 tabBody.forEach(item => {
-//                     item.classList.remove('active')
-//                 })
-//             }
-//         })
-//     }
-// }
-// heandlerTabs()
-
-
-// // Робимо плавну прокрутку до якорів.
-// function goAnchor() {
-//     let btnAnchors = document.querySelectorAll('.btn-anchor')
-//     let burger = document.querySelector('.header__burger')
-//     let innerHeader = document.querySelector('.header__inner')
-
-//     if(btnAnchors.length > 0) {
-//         btnAnchors.forEach(btn => {
-//             btn.addEventListener('click', function(e) {
-//                 e.preventDefault()
-
-//                 let header = document.querySelector('.header')
-
-//                 header.classList.remove("burger-active")
-//                 burger.classList.remove("active")
-//                 innerHeader.classList.remove("active")
-    
-//                 let id = btn.dataset.id
-//                 let section = document.querySelector(`#${id}`)
-                
-//                 if(section) {
-//                     window.scrollBy({
-//                         top: (section.getBoundingClientRect().top - header.clientHeight),
-//                         behavior: 'smooth'
-//                     })
-//                 }
-//             })
-//         })
-//     }
-// }
-// goAnchor()
