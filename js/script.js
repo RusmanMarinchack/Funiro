@@ -264,7 +264,6 @@ function activePopap() {
 
     
     if(window.matchMedia("(min-width: 767px)").matches) {
-        console.log(1)
         footerRow.forEach(item => {
             if(item.classList.contains("accardeons")) {
                 item.classList.remove("accardeons")

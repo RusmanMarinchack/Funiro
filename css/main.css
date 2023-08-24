@@ -778,6 +778,11 @@ body {
 .logo {
   margin-right: 2.5625rem;
 }
+@media screen and (max-width: 575.98px) {
+  .logo {
+    margin-right: 0;
+  }
+}
 .logo a {
   display: inline-block;
   width: 74px;
